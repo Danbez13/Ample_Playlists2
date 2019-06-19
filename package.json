@@ -1,10 +1,10 @@
 {
-  "name": "boilerplate-react-webpack",
+  "name": "Ample_Playlists",
   "version": "0.2.2",
   "description": "A webpack React starter",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
+  "repository": "https://github.com/kotare-2019/Ample_Playlists",
   "main": "server/index.js",
-  "author": "EDA",
+  "author": "",
   "license": "ISC",
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
