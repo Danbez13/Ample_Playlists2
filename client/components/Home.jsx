@@ -8,7 +8,7 @@ const Home = props => {
     // React.Fragment === <>
     <React.Fragment>
       <h2>Home</h2>
-      <p>Select a playlist</p>
+      <p className="songs">Select a playlist</p>
     </React.Fragment>
   )
 }

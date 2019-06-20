@@ -4,22 +4,26 @@ import { Link } from 'react-router-dom'
 import data from '../../data/playlists'
 
 
-const Rank = props => {
+const Playlist = props => {
   
   const show = props.match.params.playlistName
-  console.log(show)
-  console.log(data[show])
+  // console.log('E',show)
+  // console.log(data[show])
   const names = data[show]
   return (
     // React.Fragment === <>
     <React.Fragment>
       <h2>{props.match.params.playlistName}</h2>
-      <ul>
+      <ul className="songs">
         {names.map(listName =>{
           console.log(listName)
-          console.log(listName.name)
+          
                 return(
-                <li><Link to={`/listDescription/${listName.name}`}>{listName.name}</Link></li>
+                  <div>
+                    <li>Songs: {listName.songs} </li>
+                    <li>Artists: {listName.artists} </li>
+                    <li><a href={listName.playlistLink} className="listen">Listen Here</a></li>
+                </div>
                 )
                 })}
               
@@ -29,4 +33,4 @@ const Rank = props => {
     </React.Fragment>
   )
 }
-export default Rank
+export default Playlist

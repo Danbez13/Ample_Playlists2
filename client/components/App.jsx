@@ -8,7 +8,9 @@ const App = () => {
   return (
     <Router>
       <React.Fragment>
+        <div className="blackness">
         <h1>Ample Playlists</h1>
+        </div>
         <div className="wrapper">
         <div className="nav">
         <Route path="/" component={Nav} />
