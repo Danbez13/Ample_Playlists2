@@ -1,6 +1,8 @@
-import React from 'react'
-import { HashRouter as Router, Route, Link } from 'react-router-dom'
+import React from 'react';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import Home from './Home';
 import Nav from './Nav';
+import Playlist from './Playlist';
 
 const App = () => {
   return (
@@ -12,7 +14,8 @@ const App = () => {
         <Route path="/" component={Nav} />
         </div>
         <div className='home'>
-        {/* <Route path="/home" component={Home} /> */}
+        <Route path="/home" component={Home} />
+        <Route path="/list/:playlistName" component={Playlist} />
         </div>
         </div>
       </React.Fragment>

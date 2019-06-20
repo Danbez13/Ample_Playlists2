@@ -27,3 +27,5 @@ const playlists = {
         playlistLink : 'https://open.spotify.com/playlist/30tO0q38XlL4Zekn8k5BGT?si=nJtDZHD6QNWlAqQ-MJuZKg',
     }],
 }
+
+module.exports = playlists
