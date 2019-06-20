@@ -18,7 +18,7 @@ const playlists = {
     }],
     PostPunkRevival: [{
         songs: ["Reptillia, ", "Fluorescent Adolescent, ", "A-Punk, ", "Naive, ", "Last Nite, ", "Seven Nation Army, ", "Machu Picchu, ", "Human, ", "She Moves In Her Own Way, ", "Kids, ", "I Bet You Look Good On The Dancefloor, ", "Somebody Told Me, ", "Fell In Love With A Girl, ", "12:51, ", "Elephant", "Here It Goes Again, ", "Lightning Bolt, ", "Crying Lightning, ", "Mardy Bum, ", "Do You Want To"],
-        artists: ["The Strokes", "Arctic Monkeys", "Vampire Weekend", "The Kooks", "The Strokes", "The White Stripes", "The Strokes", "The Killers", "The Kooks", "MGMT", "Arctic Monkeys", "The Killers", "The White Stripes", "The Strokes", "Tame Impala", "OK Go", "Jake Bugg", "Arctic Monkeys, ", "Arctic Monkeys, ", "Franz Ferdinand"],
+        artists: ["The Strokes, ", "Arctic Monkeys, ", "Vampire Weekend, ", "The Kooks, ", "The Strokes, ", "The White Stripes, ", "The Strokes, ", "The Killers, ", "The Kooks, ", "MGMT, ", "Arctic Monkeys, ", "The Killers, ", "The White Stripes, ", "The Strokes, ", "Tame Impala, ", "OK Go, ", "Jake Bugg, ", "Arctic Monkeys, ", "Arctic Monkeys, ", "Franz Ferdinand"],
         playlistLink : 'https://open.spotify.com/playlist/1k25OCpIg79cp54OSBkt6E?si=QOtMT7t1SLi45N-YjAooGg',
     }],
     Punk: [{
