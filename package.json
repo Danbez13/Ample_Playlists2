@@ -32,19 +32,20 @@
     ]
   },
   "dependencies": {
-    "express": "^4.16.4",
-    "superagent": "^5.0.2",
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
+    "acorn": "^6.1.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
+    "superagent": "^5.0.2",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
