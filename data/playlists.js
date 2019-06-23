@@ -178,6 +178,7 @@ const playlists = {
         {art20:"By - Liam Gallagher"}],
         playlistLink : 'https://open.spotify.com/playlist/0WyvYpg4AmSVIIf0oy3fu1?si=NmthYirMSaSdr8icc8q-Cg',
     }],
+
     Musicals: [{
         songs: [
         {Song1:"Do You Hear The People Sing?, "}, 
@@ -268,6 +269,53 @@ const playlists = {
         {art20:"By - Franz Ferdinand"}],
         playlistLink : 'https://open.spotify.com/playlist/1k25OCpIg79cp54OSBkt6E?si=QOtMT7t1SLi45N-YjAooGg',
     }],
+
+    Disney: [{
+        songs: [
+        {Song1:"Hakuna Matata, "}, 
+        {Song2:"I Wan'na Be Like You, "}, 
+        {Song3:"Can You Feel the Love Tonight, "}, 
+        {Song4:"The Bare Necessities, "}, 
+        {Song5:"A Whole New World, "}, 
+        {Song6:"I Just Can't Wait to Be King, "}, 
+        {Song7:"Friend Like Me, "}, 
+        {Song8:"I'll Make a Man Out of You, "}, 
+        {Song9:"Kiss the Girl, "}, 
+        {Song10:"Start of Something New, "}, 
+        {Song11:"Go the Distance, "}, 
+        {Song12:"Reflection, "}, 
+        {Song13:"Gotta Go My Own Way, "}, 
+        {Song14:"Dig a Little Deeper, "}, 
+        {Song15:"Love Is an Open Door, "}, 
+        {Song16:"Now Or Never, "}, 
+        {Song17:"Be Our Guest, "}, 
+        {Song18:"High School Musical, "}, 
+        {Song19:"Introducing Me, "}, 
+        {Song20:"I Don't Dance, "}],
+        artists: [
+        {art1:"From - The Lion King, "}, 
+        {art2:"From - The Jungle Book, "}, 
+        {art3:"From - The Lion King, "}, 
+        {art4:"From - The Jungle Book, "}, 
+        {art5:"From - Aladdin, "}, 
+        {art6:"From - The Lion King, "}, 
+        {art7:"From - Aladdin, "}, 
+        {art8:"From - Mulan, "}, 
+        {art9:"From - The Little Mermaid, "}, 
+        {art10:"From - High School Musical, "}, 
+        {art11:"From - Hercules, "}, 
+        {art12:"From - Mulan, "}, 
+        {art13:"From - High School Musical, "}, 
+        {art14:"From - The Princess and the Frog, "}, 
+        {art15:"From - Frozen, "}, 
+        {art16:"From - High School Musical, "}, 
+        {art17:"From - Beauty and the Beast, "}, 
+        {art18:"From - High School Musical, "}, 
+        {art19:"From - Camp Rock 2, "}, 
+        {art20:"From - High School Musical"}],
+        playlistLink : 'https://open.spotify.com/playlist/5svor1pomjV608qLiJRgVs?si=BXWYIcVHRw-37X_lqu8rzA',
+    }],
+    
     Punk: [{
         songs: [
         {Song1:"Going To Pasalaqua, "}, 
@@ -315,5 +363,6 @@ const playlists = {
     }],
     
 }
+
 
 module.exports = playlists
