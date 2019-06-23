@@ -1,7 +1,8 @@
 h1 {
     background-color: #e91e33;
-    margin: 5px;
-    margin-top: 8px;
+    margin: 29px;
+    margin-top: 23px;
+    margin-right: 1679px;
     padding: 5px;
     font-family: 'Saira Semi Condensed', sans-serif;
     border-radius: 10%;
@@ -9,11 +10,14 @@ h1 {
 .blackness{
     background-color: black;
     width: 1920px;
-    height: 80px;
+    height: 70px;
     margin-left: -8px;
-    margin-top: -8px;
-
+    margin-top: -18px;
+    padding-top: 1px;
+    padding-bottom: 24px;
 }
+
+
 body {
     background-color: #282828;
     
@@ -37,6 +41,7 @@ body {
     padding-bottom: 670px;
     padding-right: 20px;
     padding-left: 35px;
+    font-size: 21px;
 }
 
 .wrapper{
@@ -45,7 +50,7 @@ body {
 
 .songs {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 22px;
+    font-size: 21px;
 }
 ul{
     list-style-type:none;
@@ -68,4 +73,26 @@ ul{
 }
 .listen-move {
     margin-top: 20px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+.navie {
+    font-size: 20px;
+    
+}
+.navo:visited {
+    color: white;
+    text-decoration: none;
+}
+.navo:link {
+    color: white;
+    text-decoration: none;
 }

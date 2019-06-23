@@ -15,7 +15,9 @@ const Nav = props => {
         <ul>
             {list.map((listName, key) =>{
                 return(
-                <li><Link to={`/list/${listName}`}>{listName}</Link></li>
+                  <div className="navie">
+                    <li><Link to={`/list/${listName}`} className="navo">{listName}</Link></li>
+                  </div>
                 )
             })}
         </ul>

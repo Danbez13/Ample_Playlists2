@@ -1,6 +1,5 @@
 const playlists = {
-    PopPunk: [
-        {
+    PopPunk: [{
             songs: [
             {Song1: "All The Small Things, "},
             {Song2: "American Idiot, "},
@@ -44,8 +43,7 @@ const playlists = {
             {art19: "By - Mt.Eddy, "}, 
             {art20: "By - Green Day"}],
             playlistLink : 'https://open.spotify.com/playlist/3MvFIlC4hRSDIGlEaJIrIJ?si=X4_EKHTRQou2VcdrnOVJfw',
-        }
-    ],
+        }],
     Pop: [{
         songs: [
         {Song1:"Fireflies, "}, 
@@ -89,6 +87,51 @@ const playlists = {
         {art19:"By - One Direction, "}, 
         {art20:"By - Troy, Gabriella Montez"}],
         playlistLink : 'https://open.spotify.com/playlist/4iT9fHcrVJikWEvuCFMXPJ?si=LRMdVztNQN-r6D9UxKtbKg',
+    }],
+    Britpop: [{
+        songs: [
+        {Song1:"Alright, "}, 
+        {Song2:"Parklife - 2012 Remaster, "}, 
+        {Song3:"Bitter Sweet Symphony, "}, 
+        {Song4:"Common People, "}, 
+        {Song5:"Country House - 2012 Remaster, "}, 
+        {Song6:"Don't Look Back in Anger - Remaster, "}, 
+        {Song7:"The Drugs Don't Work, "}, 
+        {Song8:"Disco 2000, "}, 
+        {Song9:"Lucky Man, "}, 
+        {Song10:"Creep, "}, 
+        {Song11:"A Song For The Lovers, "}, 
+        {Song12:"Sun Hits The Sky, "}, 
+        {Song13:"Girl From Mars, "}, 
+        {Song14:"Charmless Man, "}, 
+        {Song15:"Mardy Bum, "}, 
+        {Song16:"Live Forever, "}, 
+        {Song17:"Coffee and TV, "}, 
+        {Song18:"Champagne Supernova - Remastered, "}, 
+        {Song19:"Karma Police, "}, 
+        {Song20:"Come Back To Me, "}],
+        artists: [
+        {art1:"By - Supergrass, "}, 
+        {art2:"By - Blur, "}, 
+        {art3:"By - The Verve, "}, 
+        {art4:"By - Pulp, "}, 
+        {art5:"By - Blur, "}, 
+        {art6:"By - Oasis, "}, 
+        {art7:"By - The Verve, "}, 
+        {art8:"By - Pulp, "}, 
+        {art9:"By - The Verve, "}, 
+        {art10:"By - Radiohead, "}, 
+        {art11:"By - Richard Ashcroft, "}, 
+        {art12:"By - Supergrass, "}, 
+        {art13:"By - Ash, "}, 
+        {art14:"By - Blur, "}, 
+        {art15:"By - Arctic Monkeys, "}, 
+        {art16:"By - Oasis, "}, 
+        {art17:"By - Blur, "}, 
+        {art18:"By - Oasis, "}, 
+        {art19:"By - Radiohead, "}, 
+        {art20:"By - Liam Gallagher"}],
+        playlistLink : 'https://open.spotify.com/playlist/0S8f400klCXNlDaOb68c94?si=LTW3G3r-Quu9xitB9yv9dw',
     }],
     Rock: [{
         songs: [
@@ -134,6 +177,51 @@ const playlists = {
         {art19:"By - Red Hot Chilli Peppers, "}, 
         {art20:"By - Liam Gallagher"}],
         playlistLink : 'https://open.spotify.com/playlist/0WyvYpg4AmSVIIf0oy3fu1?si=NmthYirMSaSdr8icc8q-Cg',
+    }],
+    Musicals: [{
+        songs: [
+        {Song1:"Do You Hear The People Sing?, "}, 
+        {Song2:"This is Me, "}, 
+        {Song3:"Mamma Mia, "}, 
+        {Song4:"The Worst Pies in London, "}, 
+        {Song5:"No Place Like London, "}, 
+        {Song6:"Last of the American Girls / She's a Rebel, "}, 
+        {Song7:"Life On Mars?, "}, 
+        {Song8:"When It's Time, "}, 
+        {Song9:"The Greatest Show, "}, 
+        {Song10:"Breaking Free, "}, 
+        {Song11:"What I've Been Looking For, "}, 
+        {Song12:"You Are The Music in Me, "}, 
+        {Song13:"Beautiful, "}, 
+        {Song14:"Dead Girl Walking, "}, 
+        {Song15:"The Other Side, "}, 
+        {Song16:"Bui Doi, "}, 
+        {Song17:"Johanna, "}, 
+        {Song18:"School of Rock, "}, 
+        {Song19:"You're in the Band, "}, 
+        {Song20:"Too Much Too Soon, "}],
+        artists: [
+        {art1:"From - Les Misérables"}, 
+        {art2:"From - The Greatest Showman, "}, 
+        {art3:"From - Mamma Mia, "}, 
+        {art4:"From - Sweeney Todd, "}, 
+        {art5:"From - Sweeney Todd, "}, 
+        {art6:"From - American Idiot, "}, 
+        {art7:"From - Lazarus, "}, 
+        {art8:"From - American Idiot, "}, 
+        {art9:"From - The Greatest Showman, "}, 
+        {art10:"From - High School Musical, "}, 
+        {art11:"From - High School Musical, "}, 
+        {art12:"From - High School Musical 2, "}, 
+        {art13:"From - Heathers, "}, 
+        {art14:"From - Heathers, "}, 
+        {art15:"From - The Greatest Showman, "}, 
+        {art16:"From - Miss Saigon, "}, 
+        {art17:"From - Sweeney Todd, "}, 
+        {art18:"From - School of Rock, "}, 
+        {art19:"From - School of Rock, "}, 
+        {art20:"From - American Idiot"}],
+        playlistLink : 'https://open.spotify.com/playlist/1oPAchkFYkxbw14NLRw1Kg?si=cd9_XIvLTx2nNgH2KY-DBg',
     }],
     PostPunkRevival: [{
         songs: [
@@ -225,6 +313,7 @@ const playlists = {
         {art20:"By - Green Day"}],
         playlistLink : 'https://open.spotify.com/playlist/30tO0q38XlL4Zekn8k5BGT?si=nJtDZHD6QNWlAqQ-MJuZKg',
     }],
+    
 }
 
 module.exports = playlists
